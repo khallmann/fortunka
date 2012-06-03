@@ -157,7 +157,8 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background:url(http://c.wrzuta.pl/wi247/a1b7868e001aed2e4b00acfe/zielone_tlo);
 }
 
 a {
