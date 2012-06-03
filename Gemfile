@@ -5,7 +5,9 @@ gem 'rails', '3.2.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
+gem 'pg', :group => :production
+gem 'thin'
 
 group :assets do
   gem 'twitter-bootstrap-rails'
@@ -41,7 +43,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 gem 'rails', '3.2.2'
-gem 'sqlite3'
 # gems used only for assets
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
